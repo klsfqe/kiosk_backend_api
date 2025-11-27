@@ -1,0 +1,357 @@
+{
+  "owner": [
+    {
+      "O_id": 1,
+      "username": "아무개",
+      "password": "$2b$10$.V80L2iSPzWL3JnCWOSe/egKi//ExZhN4ghhMhSUW5nI3ZU7s8.4W",
+      "email": "aaa@aaa.com",
+      "cell_phone": "010-6452-4521",
+      "binumber": "59873210548761",
+      "created_at": "2025-06-19T08:44:36.000Z",
+      "updated_at": "2025-10-31T05:35:34.000Z"
+    },
+    {
+      "O_id": 2,
+      "username": "김씨",
+      "password": "$2b$10$liDVEA0PlzpIf38xulGy7.9Idmb62y.cSG1VxZDbydl./rQVYQ.56",
+      "email": "alex@bbb.com",
+      "cell_phone": "010-7352-9862",
+      "binumber": "02548987315479",
+      "created_at": "2025-07-03T05:09:09.000Z",
+      "updated_at": "2025-10-31T05:35:34.000Z"
+    },
+    {
+      "O_id": 3,
+      "username": "박씨",
+      "password": "$2b$10$vHpDwBhG/rtsUJ/ZPQdGMuvgB74oWEuvBnhfAgKBNLGfIjFoqh1QS",
+      "email": "rtx@ggg.com",
+      "cell_phone": "010-1060-3060",
+      "binumber": "87543947563849",
+      "created_at": "2025-07-03T05:15:53.000Z",
+      "updated_at": "2025-10-31T05:35:34.000Z"
+    },
+    {
+      "O_id": 4,
+      "username": "안씨",
+      "password": "$2b$10$5hpqV/rcmzZzTD3qVrq4T.D7iGsHXtuRUTS6JHf3UUvNyn.uxrsWy",
+      "email": "doyoon@ddd.com",
+      "cell_phone": "010-0000-0000",
+      "binumber": "38746597281742",
+      "created_at": "2025-07-04T08:58:53.000Z",
+      "updated_at": "2025-10-31T05:35:35.000Z"
+    },
+    {
+      "O_id": 5,
+      "username": "이씨",
+      "password": "$2b$10$uzajgcLD0pw8vcGaWxDtJO3x5Flhvk9ex5/7wCgw6ifr0ZvfJgCNu",
+      "email": "sung@hhh.com",
+      "cell_phone": "010-0000-0000",
+      "binumber": "12345678912412",
+      "created_at": "2025-11-07T08:15:02.000Z",
+      "updated_at": "2025-11-07T08:16:01.000Z"
+    }
+  ],
+  "stores": [
+    {
+      "S.id": 1,
+      "S.code": 1,
+      "name": "오전점",
+      "shop_name": "Ko-fi",
+      "cell_phone": "010-6452-4521",
+      "binumber": "59873210548761"
+    },
+    {
+      "S.id": 2,
+      "S.code": 2,
+      "name": "전지적 시점",
+      "shop_name": "black_cow",
+      "cell_phone": "010-8472-7421",
+      "binumber": "02548987315479"
+    },
+    {
+      "S.id": 3,
+      "S.code": 3,
+      "name": "평촌점",
+      "shop_name": "hambu",
+      "cell_phone": "010-1060-3060",
+      "binumber": "87543947563849"
+    },
+    {
+      "S.id": 5,
+      "S.code": 4,
+      "name": "반점",
+      "shop_name": "remen",
+      "cell_phone": "010-6412-4521",
+      "binumber": "98795412358745"
+    },
+    {
+      "S.id": 6,
+      "S.code": 4,
+      "name": "반의반점",
+      "shop_name": "re",
+      "cell_phone": "010-6412-4521",
+      "binumber": "="
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "dev_id": 1,
+      "dev_name": "coffee",
+      "dev_type": "kiosk",
+      "dev_status": "online",
+      "dev_location": "오전점",
+      "dev_description": 756894213
+    },
+    {
+      "id": 2,
+      "dev_id": 2,
+      "dev_name": "cow",
+      "dev_type": "table_order",
+      "dev_status": "offline",
+      "dev_location": "전지적 시점",
+      "dev_description": 987654321
+    },
+    {
+      "id": 3,
+      "dev_id": 2,
+      "dev_name": "cow",
+      "dev_type": "pos",
+      "dev_status": "online",
+      "dev_location": "전지적 시점",
+      "dev_description": 123456789
+    },
+    {
+      "id": 4,
+      "dev_id": 1,
+      "dev_name": "coffee",
+      "dev_type": "pos",
+      "dev_status": "online",
+      "dev_location": "오전점",
+      "dev_description": 135246987
+    },
+    {
+      "id": 5,
+      "dev_id": 3,
+      "dev_name": "ham",
+      "dev_type": "kiosk",
+      "dev_status": "online",
+      "dev_location": "평촌점",
+      "dev_description": 947291048
+    },
+    {
+      "id": 6,
+      "dev_id": 3,
+      "dev_name": "ham",
+      "dev_type": "pos",
+      "dev_status": "online",
+      "dev_location": "평촌점",
+      "dev_description": 249392753
+    },
+    {
+      "id": 8,
+      "dev_id": 3,
+      "dev_name": "ramen",
+      "dev_type": "kiosk",
+      "dev_status": "online",
+      "dev_location": "반점",
+      "dev_description": 128710283
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "store_id": 1,
+      "name": "음료",
+      "use": "Y"
+    },
+    {
+      "id": 2,
+      "store_id": 1,
+      "name": "디저트",
+      "use": "Y"
+    },
+    {
+      "id": 3,
+      "store_id": 2,
+      "name": "식사",
+      "use": "Y"
+    },
+    {
+      "id": 4,
+      "store_id": 3,
+      "name": "버거",
+      "use": "Y"
+    }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "아메리카노",
+      "description": "아이스",
+      "price": 2000,
+      "images_url": "https://media.istockphoto.com/id/469833895/ko/%EB%B9%84%EB%94%94%EC%98%A4/%EC%BB%A4%ED%94%BC-%EC%9B%90%EB%91%90-%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94-%EC%98%A4%EB%B2%84-%EB%B0%B0%EA%B2%BD-super-%EB%8A%90%EB%A6%B0-%EB%8F%99%EC%9E%91.avif?s=640x640&k=20&c=btZRuj54V23qWvwKk3jS7S_g5lpFJECO1zoz76ljqbU=",
+      "use": "Y",
+      "amount": "0.10"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "라떼",
+      "description": "뜨거운",
+      "price": 3000,
+      "images_url": "https://bitbucket.org/nextpayments/ws2025_api/raw/280c0b97138468414eebb1843648d46f8261f5ea/images/latte.jpg",
+      "use": "Y",
+      "amount": "0.05"
+    },
+    {
+      "id": 3,
+      "category_id": 2,
+      "name": "케이크",
+      "description": "케잌인",
+      "price": 3500,
+      "images_url": "https://media.istockphoto.com/id/1370520449/ko/%EC%82%AC%EC%A7%84/%EC%9C%A0%EC%95%BD%EC%9D%B4-%EC%9E%88%EB%8A%94-%EC%B4%88%EC%BD%9C%EB%A6%BF-%EC%BC%80%EC%9D%B4%ED%81%AC-%EC%A1%B0%EA%B0%81.jpg?s=612x612&w=0&k=20&c=kaQvVLSz8ZSz1uwTVcOR_v8E0buPPoCyDgsxdLLsv9c=",
+      "use": "Y",
+      "amount": "0.03"
+    },
+    {
+      "id": 4,
+      "category_id": 3,
+      "name": "소고기",
+      "description": "비싼",
+      "price": 27000,
+      "images_url": "https://bitbucket.org/nextpayments/ws2025_api/raw/280c0b97138468414eebb1843648d46f8261f5ea/images/cow.jpg",
+      "use": "Y",
+      "amount": null
+    },
+    {
+      "id": 5,
+      "category_id": 3,
+      "name": "바라밥",
+      "description": "합리적인",
+      "price": 3000,
+      "images_url": "https://bitbucket.org/nextpayments/ws2025_api/raw/280c0b97138468414eebb1843648d46f8261f5ea/images/rice.jpg",
+      "use": "Y",
+      "amount": null
+    },
+    {
+      "id": 6,
+      "category_id": 4,
+      "name": "치즈버거",
+      "description": "단품 버거",
+      "price": 4400,
+      "images_url": null,
+      "use": "Y",
+      "amount": "0.02"
+    },
+    {
+      "id": 7,
+      "category_id": 4,
+      "name": "새우버거",
+      "description": "세트 버거",
+      "price": 8600,
+      "images_url": null,
+      "use": "Y",
+      "amount": "0.03"
+    },
+    {
+      "id": 8,
+      "category_id": 2,
+      "name": "쿠키",
+      "description": "쿠킼칩",
+      "price": 2500,
+      "images_url": null,
+      "use": "Y",
+      "amount": "0.05"
+    },
+    {
+      "id": 9,
+      "category_id": 2,
+      "name": "빵",
+      "description": "빵",
+      "price": 3500,
+      "images_url": "https://media.istockphoto.com/id/475263838/ko/%EC%82%AC%EC%A7%84/%EB%A7%8E%EC%9D%80-%ED%98%BC%ED%95%A9%EB%90%A8-%EB%B9%B5%EA%B3%BC-%EB%A1%A4%EC%9D%B4-%EC%8A%9B-%EC%9C%84%EC%97%90%EC%84%9C.jpg?s=612x612&w=0&k=20&c=TiLkU1GoBEFJG258AciybQ7LiAYCXAMmULOJucdl1RU=",
+      "use": "Y",
+      "amount": null
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "name": "에스프레소",
+      "description": null,
+      "price": 1700,
+      "images_url": null,
+      "use": "Y",
+      "amount": null
+    },
+    {
+      "id": 11,
+      "category_id": 1,
+      "name": "라아떼",
+      "description": null,
+      "price": 3333,
+      "images_url": null,
+      "use": "N",
+      "amount": null
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 4,
+      "store_id": 1,
+      "food_name": "라떼",
+      "common_options": "",
+      "custom_option": "",
+      "quantity": 1,
+      "price": "3000.00",
+      "ServiceType": "키오스크",
+      "status": "주문 완료",
+      "order_time": "2025-11-07T07:15:26.000Z",
+      "discount_price": null
+    },
+    {
+      "order_id": 5,
+      "store_id": 1,
+      "food_name": "아메리카노",
+      "common_options": "",
+      "custom_option": "",
+      "quantity": 1,
+      "price": "2000.00",
+      "ServiceType": "키오스크",
+      "status": "주문 완료",
+      "order_time": "2025-11-07T07:15:21.000Z",
+      "discount_price": null
+    }
+  ],
+  "payment_table": [],
+  "payment_kiosk": [
+    {
+      "id": 7,
+      "order_id": 4,
+      "payment_method": "카드",
+      "status": "결제 완료",
+      "payment_time": "2025-10-31T03:31:49.000Z",
+      "price": null
+    }
+  ],
+  "discount": [
+    {
+      "id": 1,
+      "amount": "0.25"
+    },
+    {
+      "id": 2,
+      "amount": "0.50"
+    },
+    {
+      "id": 3,
+      "amount": "0.20"
+    },
+    {
+      "id": 4,
+      "amount": "0.45"
+    }
+  ],
+  "payment_total": []
+}

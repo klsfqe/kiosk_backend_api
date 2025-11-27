@@ -1,0 +1,7 @@
+*-lock.json
+node_modules
+kiosk.env
+HTML
+*.HTML
+DB.json
+*.js
